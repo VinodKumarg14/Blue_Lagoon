@@ -11,6 +11,7 @@ import com.la.hotels.inroom.db.database.DatabaseHelper;
 import com.la.hotels.inroom.networks.businesslayer.DataListener;
 import com.la.hotels.inroom.networks.webaccess.Response;
 import com.la.hotels.inroom.ui.fragments.DashboardFragment;
+import com.la.hotels.inroom.ui.fragments.HomeFragment;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -29,6 +30,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener ,
         llBody.addView(llHome, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         createDataBase();
         initializeControls();
+        loadHomeFragment();
     }
 
     private void createDataBase()
@@ -91,4 +93,8 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener ,
     public void dataRetreived(Response data) {
 
     }
+    private void loadHomeFragment() {
+        loadFragment(new HomeFragment());
+    }
+
 }
