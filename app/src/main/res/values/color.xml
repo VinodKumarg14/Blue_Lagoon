@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="popup_bg">#F2F2F2</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_fifty">#80ffffff</color>
+    <color name="transparent_eighty">#CC000000</color>
+    <color name="transparent_seventy">#B3000000</color>
+    <color name="transparent_thirty">#CC000000</color>
+    <color name="transparent_ash_thirty">#4D000000</color>
+    <color name="transparent_sixty">#99000000</color>
+    <color name="transparent_ash">#80000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_c_h">#FFD1D1D1</color>
+    <color name="ash">#CDCDCD</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+    <color name="bottom_bg">#0D0B05</color>
+    <color name="phone_book_item_circle_color">#655752</color>
+
+    <!-- Menu Item -->
+    <!-- Inactive Gradient  -->
+    <color name="menu_start_color_n">#675853</color>
+    <color name="menu_middle_color_n">#483B36</color>
+    <color name="menu_end_color_n">#2B201A</color>
+    <!-- Active Gradient  -->
+    <color name="menu_start_color_h">#EAEAEA</color>
+    <color name="menu_middle_color_h">#7A7A7A</color>
+    <color name="menu_end_color_h">#000000</color>
+
+    <color name="dots_color_active">#ffffff</color>
+    <color name="dots_color_inactive">#dbd8d8</color>
+    <color name="bullet_color">#9b9b9b</color>
+
+    <color name="book_btn_bg">#392F29</color>
+    <color name="phone_cal_btn_bg">#645651</color>
+    <color name="phone_btn_bg">#000000</color>
+
+
+    <color name="phone_keypad_btn_grad_1">#555555</color>
+    <color name="phone_keypad_btn_grad_2">#404040</color>
+    <color name="phone_keypad_btn_grad_3">#2A2A2A</color>
+
+    <color name="phone_keypad_btn_border">#808080</color>
+    <color name="calendar_header_text_color">#675853</color>
+    <color name="calendar_month_text_color">#51443E</color>
+</resources>

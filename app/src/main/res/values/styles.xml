@@ -1,0 +1,25 @@
+<resources>
+    notification_dailog
+    <style name="DatePickerDialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHighlight">#FFFFFF</item>
+        <item name="android:textColorLink">#FFFFFF</item>
+        <item name="android:divider">#FFFFFF</item>
+
+        <!-- Any customizations for your app running on 4.0+ devices here -->
+    </style>
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="Theme.Transparent" parent="android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

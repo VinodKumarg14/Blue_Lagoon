@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/popup_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp">
+    <!--<include layout="@layout/dialog_header_fragment"/>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+         >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:orientation="vertical"
+            android:layout_margin="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/ivHotelLogo"
+                    android:layout_marginTop="30px"
+                    android:layout_width="match_parent"
+                    android:layout_height="200px" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:text="Room Type"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_28"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:paddingLeft="@dimen/padding_room_type"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="150px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"></androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_room_type"
+            android:paddingRight="@dimen/padding_room_type"
+                >
+
+            >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvRoomNos"
+                    android:layout_width="match_parent"
+                    android:layout_height="80px"
+                    android:foregroundGravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"></androidx.recyclerview.widget.RecyclerView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_room_type"
+                    android:paddingRight="@dimen/padding_room_type">
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Room Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_18" />
+
+                    <EditText
+                        android:visibility="gone"
+                        android:id="@+id/etRoomNumber"
+                        android:layout_width="500px"
+                        android:layout_height="@dimen/height_reg_edit_text"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginRight="50px"
+                        android:background="@drawable/cancel"
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="@dimen/padding_left_edit_text"
+                        android:paddingRight="@dimen/padding_left_edit_text"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Master Password"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_18" />
+
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_reg_edit_text"
+                        android:layout_marginLeft="120px"
+                        android:background="@drawable/cancel"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="@dimen/padding_left_edit_text"
+                        android:paddingRight="@dimen/padding_left_edit_text"
+                        android:password="true"
+                        android:text="123456677"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvAssign"
+                    android:layout_width="210px"
+                    android:layout_height="64px"
+                    android:background="@drawable/confirm_selector"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingRight="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:text="Assign"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvCancel"
+                    android:layout_width="210px"
+                    android:layout_height="64px"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingRight="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:text="Cancel"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="650px">
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

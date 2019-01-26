@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90px"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+         >
+
+        <ImageView
+            android:id="@+id/ivBackIcon"
+            android:layout_width="@dimen/header_icon_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/header_icon_padding"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:src="@drawable/back_icon" />
+
+        <ImageView
+            android:id="@+id/ivForwardIcon"
+            android:layout_width="@dimen/header_icon_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleX="-1"
+            android:padding="@dimen/header_icon_padding"
+
+            android:src="@drawable/back_icon"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Spa Wellness"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_20" />
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="@dimen/web_search_txt_size_padding_left_right"
+            android:paddingRight="@dimen/web_search_txt_size_padding_left_right"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/web_search_txt_size"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ivRefresh"
+            android:layout_width="@dimen/header_icon_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/header_icon_padding"
+            android:src="@drawable/refresh_icon" />
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="@dimen/header_icon_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="@dimen/header_icon_padding"
+            android:layout_marginRight="@dimen/dp_20"
+            android:src="@drawable/close_icon" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

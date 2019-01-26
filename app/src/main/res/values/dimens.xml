@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+
+
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_170">170dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_215">215dp</dimen>
+
+
+
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="text_size_very_small">20px</dimen>
+    <dimen name="text_size_small">24px</dimen>
+    <dimen name="text_size_normal_small">30px</dimen>
+    <dimen name="text_size_normal">35px</dimen>
+    <dimen name="text_size_large">40px</dimen>
+    <dimen name="text_size_extra_large">48px</dimen>
+    <dimen name="text_size_extra_extra_large">60px</dimen>
+    <dimen name="text_size_extra_extra_extra_large">100px</dimen>
+
+
+
+    <dimen name="text_title">48px</dimen>
+    <dimen name="text_movie_title">56px</dimen>
+    <dimen name="text_size">32px</dimen>
+    <dimen name="text_size_preview">36px</dimen>
+    <dimen name="text_size_rating">45px</dimen>
+    <dimen name="button_text_size">24px</dimen>
+    <!--<dimen name="menu_layout_height">244px</dimen>-->
+    <dimen name="menu_layout_height">144px</dimen>
+    <dimen name="web_search_txt_size">16dp</dimen>
+    <dimen name="web_search_txt_size_padding_left_right">70px</dimen>
+    <dimen name="notificatoin_list_item_height">170px</dimen>
+    <dimen name="notificatoin_list_item_width">640px</dimen>
+    <dimen name="notificatoin_list_item_image_width">230px</dimen>
+    <dimen name="notificatoin_list_item_image_padding_left_right">50px</dimen>
+    <dimen name="notificatoin_list_item_image_padding_top_bottom">40px</dimen>
+
+    <dimen name="food_notification_width">1400px</dimen>
+    <dimen name="food_notification_height">880px</dimen>
+    <dimen name="padding_food_notification">40px</dimen>
+    <dimen name="px_1545">1545px</dimen>
+    <dimen name="px_900">1400px</dimen>
+    <dimen name="padding_food_notification_left_right">80px</dimen>
+    <dimen name="padding_food_notification_header_height">100px</dimen>
+    <dimen name="notificatoin_food_header_dimen">100px</dimen>
+    <dimen name="notificatoin_food_header_name_width">930px</dimen>
+    <dimen name="notificatoin_food_header_name_width_temp">900px</dimen>
+    <dimen name="notificatoin_food_botton_height">70px</dimen>
+    <!--<dimen name="food_box_list_item_text_size">20dp</dimen>-->
+    <!--<dimen name="phone_cards_height">890px</dimen>-->
+    <dimen name="phone_cards_height">910px</dimen>
+    <dimen name="phone_cards_margins">10px</dimen>
+    <dimen name="margin_phone_number_left_right">65px</dimen>
+    <!--<dimen name="padding_phone_number_left_right">100px</dimen>-->
+    <dimen name="padding_phone_number_left_right">135px</dimen>
+    <dimen name="margin_phone_number_top_bottom">35px</dimen>
+    <dimen name="phone_number_height">140px</dimen>
+    <dimen name="phone_number_tab_corner_radius">70px</dimen>
+    <dimen name="margin_phone_call_btn_top_bottom">20px</dimen>
+    <dimen name="padding_phone_cal_btn_left_right">40px</dimen>
+    <dimen name="phone_cal_btn_height">80px</dimen>
+    <dimen name="phone_numbers_btn_height">110px</dimen>
+    <dimen name="margin_phone_number_btn_left_right">120px</dimen>
+    <dimen name="phone_book_items_circle_radius">128px</dimen>
+    <dimen name="phone_book_items_width">420px</dimen>
+    <dimen name="stay_radio_group_height">400px</dimen><!-- 1/3 of stay_radio_btn_height-->
+    <dimen name="stay_radio_btn_height">130px</dimen>
+    <!--<dimen name="stay_radio_btn_height">30px</dimen>-->
+    <dimen name="stay_customized_btn_layout_height">190px</dimen>
+    <dimen name="stay_ll_radio_group_height">600px</dimen>
+    <dimen name="calendar_header_height">100px</dimen>
+
+    <!--Food box-->
+    <dimen name="food_box_placeOrder_button_padding_sides">20dp</dimen>
+    <dimen name="food_box_placeOrder_button_padding_top_bottom">7dp</dimen>
+    <dimen name="food_box_list_side_margin">20dp</dimen>
+    <dimen name="food_box_cart_inc_dec_height">40dp</dimen>
+    <dimen name="food_box_list_item_text_size">20dp</dimen>
+    <color name="new_card_text_color">#9b9b9b</color>
+    <dimen name="food_info_radio_btn_height">75px</dimen>
+    <dimen name="header_margins">10dp</dimen>
+    <dimen name="hr_indicator_text_size">20px</dimen>
+    <dimen name="alaram_clock_dimensions">580px</dimen>
+    <dimen name="device_assignment_radio_button_width">100px</dimen>
+    <dimen name="padding_room_type">100px</dimen>
+    <dimen name="dnd_time_height">300px</dimen>
+    <dimen name="device_reg_label_width">200px</dimen>
+    <dimen name="margin_device_reg_top_bottom">30px</dimen>
+    <dimen name="header_icon_width">50dp</dimen>
+    <dimen name="header_icon_padding">15dp</dimen>
+    <dimen name="padding_left_edit_text">20px</dimen>
+    <dimen name="width_reg_edit_text">550px</dimen>
+    <dimen name="height_reg_edit_text">90px</dimen>
+
+
+    <item name="hr_indicator_weight" type="dimen" format="float">5.4</item>
+    <item name="min_indicator_weight" type="dimen" format="float">5.4</item>
+</resources>
