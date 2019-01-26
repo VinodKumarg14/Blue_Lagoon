@@ -11,9 +11,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.PermissionChecker;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -25,6 +22,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.la.hotels.inroom.R;
 import com.la.hotels.inroom.constants.AppConstants;
 import com.la.hotels.inroom.networks.businesslayer.CommonBL;
@@ -36,6 +34,9 @@ import com.la.hotels.inroom.objects.DeviceRegistrationDO;
 import com.la.hotels.inroom.utils.PreferenceUtils;
 
 import java.lang.reflect.Method;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.PermissionChecker;
 
 
 public class DeviceRegistrationActivity extends BaseActivity implements View.OnClickListener, DataListener {

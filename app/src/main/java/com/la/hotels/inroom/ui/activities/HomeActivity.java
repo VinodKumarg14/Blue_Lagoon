@@ -1,8 +1,4 @@
 package com.la.hotels.inroom.ui.activities;
-
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -15,6 +11,10 @@ import com.la.hotels.inroom.db.database.DatabaseHelper;
 import com.la.hotels.inroom.networks.businesslayer.DataListener;
 import com.la.hotels.inroom.networks.webaccess.Response;
 import com.la.hotels.inroom.ui.fragments.DashboardFragment;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 
 public class HomeActivity extends BaseActivity implements View.OnClickListener , DataListener
@@ -88,9 +88,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener ,
     }
 
     @Override
-    public void dataRetreived(Response data)
-    {
-
+    public void dataRetreived(Response data) {
 
     }
 }

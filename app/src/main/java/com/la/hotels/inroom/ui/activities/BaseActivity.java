@@ -8,7 +8,6 @@ import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -20,6 +19,8 @@ import android.widget.Toast;
 
 import com.la.hotels.inroom.R;
 import com.la.hotels.inroom.utils.PreferenceUtils;
+
+import androidx.fragment.app.FragmentActivity;
 
 public abstract class BaseActivity extends FragmentActivity
 {
