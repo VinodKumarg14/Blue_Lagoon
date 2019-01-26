@@ -1,19 +1,26 @@
 package com.la.hotels.inroom.ui.activities;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.la.hotels.inroom.R;
+import com.la.hotels.inroom.constants.AppConstants;
 import com.la.hotels.inroom.db.database.DatabaseHelper;
 import com.la.hotels.inroom.networks.businesslayer.DataListener;
 import com.la.hotels.inroom.networks.webaccess.Response;
+import com.la.hotels.inroom.ui.fragments.DashboardFragment;
 
 
 public class HomeActivity extends BaseActivity implements View.OnClickListener , DataListener
 {
     private RelativeLayout llHome;
+    private TextView tvHello;
 
     @Override
     public void initialize()
@@ -44,18 +51,41 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener ,
     }
     private void initializeControls()
     {
-//        tvTime				    = (TextView)llHome.findViewById(R.id.tvTime);
-//        FontUtils.applyTypeface(tvOrders,FontUtils.getTypeface(HomeActivity.this,FontUtils.ALLER_REGULAR));
+        tvHello=findViewById(R.id.tvServices);
+        tvHello.setOnClickListener(this);
     }
+
 
     @Override
     public void onClick(View view)
     {
         switch (view.getId())
         {
+            case R.id.tvServices:
+                onHomeServiceSelected(AppConstants.STAY);
+                break;
+        }
+    }
+    private void onHomeServiceSelected(String serviceName){
+        switch (serviceName){
+            case AppConstants.STAY:
+                loadStayFragment();
+                break;
         }
     }
 
+    private void loadStayFragment() {
+        loadFragment(new DashboardFragment());
+    }
+
+    private void loadFragment(Fragment fragment) {
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        if (fragment!=null){
+            FragmentTransaction transaction=fragmentManager.beginTransaction();
+            transaction.replace(R.id.rlDashboard,fragment);
+            transaction.commit();
+        }
+    }
 
     @Override
     public void dataRetreived(Response data)
@@ -63,5 +93,4 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener ,
 
 
     }
-
 }

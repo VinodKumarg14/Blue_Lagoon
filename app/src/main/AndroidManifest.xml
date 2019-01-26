@@ -22,10 +22,10 @@
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="sensorLandscape" >
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
@@ -45,7 +45,7 @@
         <activity android:name=".ui.activities.DeviceRegistrationActivity"
             android:screenOrientation="landscape"
             android:windowSoftInputMode="adjustResize">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -57,7 +57,7 @@
                 <action android:name="android.provider.action.MANAGE_ROOT" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.document/root" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
 
 

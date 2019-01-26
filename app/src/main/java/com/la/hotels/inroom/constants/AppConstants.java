@@ -28,5 +28,8 @@ public class AppConstants
 	public static final String CONTENT_TYPE = "Content-Type";
 
 
-
+	public static final String STAY="STAY";
+	public static final String SERVICES="SERVICES";
+	public static final String RESTAURANTS="RESTAURANTS";
+	public static final String EXPLORE="EXPLORE";
 }

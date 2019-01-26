@@ -5,7 +5,7 @@ import android.util.Log;
 
 public class LogUtils 
 {
-	public static boolean isLogEnabled         = false;
+	public static boolean isLogEnabled         = true;
 
 	public static void error(String tag, String msg)
 	{
